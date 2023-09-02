@@ -13,6 +13,6 @@ alert(int2);
 let float1 = 3.14;
 alert(float1);
 
-// 文字列を代入する
+// 文字列を代入する 
 let str1 = 'JavaScriptを覚えよう';
 alert(str1);
