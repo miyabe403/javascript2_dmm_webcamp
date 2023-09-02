@@ -37,6 +37,8 @@ nickname = "jiro"
 console.log(nickname)
 
 //【スコープ】   
+// varのスコープ 
+// varでは関数スコープ（ローカルスコープ）、グローバルスコープの変数を宣言できます。
 var str = "webcamp" //グローバルスコープ
 
 function foo() {
