@@ -18,7 +18,7 @@
 // console.log(nickname)
 
 //【再代入】  
-// varによる再代入
+// varによる再代入 
 // var nickname = "taro"
 // console.log(nickname)
 // nickname = "jiro"
