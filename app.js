@@ -32,3 +32,6 @@ alert(2 * 6);
 
 // 割り算 
 alert(10 / 2);
+
+//【文字列を結合する】 
+alert('Hello' + 'World');
