@@ -36,7 +36,7 @@ console.log(nickname)
 nickname = "jiro"
 console.log(nickname)
 
-//【スコープ】  
+//【スコープ】   
 var str = "webcamp" //グローバルスコープ
 
 function foo() {
