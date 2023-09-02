@@ -5,7 +5,7 @@
 let int1 = 1;
 alert(int1);
 
-// 負数を代入する
+// 負数を代入する 
 let int2 = -10;
 alert(int2);
 
