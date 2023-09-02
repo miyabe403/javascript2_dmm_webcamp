@@ -9,7 +9,7 @@ alert(int1);
 let int2 = -10;
 alert(int2);
 
-// 小数点を代入する
+// 小数点を代入する 
 let float1 = 3.14;
 alert(float1);
 
