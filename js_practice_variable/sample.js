@@ -30,7 +30,7 @@
 // nickname = "jiro"
 // console.log(nickname)
 
-// constによる再代入
+// constによる再代入 
 const nickname = "taro"
 console.log(nickname)
 nickname = "jiro"
