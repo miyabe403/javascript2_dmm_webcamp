@@ -50,4 +50,4 @@ if(orange < apple){
   alert('みかんとりんごが同じ値段');
 } else{
   alert('みかんの値段がりんごより高い');
-} 
+}  
