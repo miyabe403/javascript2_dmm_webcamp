@@ -49,15 +49,35 @@
 // foo()
 // console.log(y)
 
-// letのスコープ 
+// letのスコープ (例1)
 // letではブロックスコープ（ローカルスコープ）の変数を宣言
-function foo() {
-  let x = "webcamp"
-  {
-    let y = "hello webcamp"
-  }
-  console.log(x)
-  console.log(y)
+// function foo() {
+//   let x = "webcamp"
+//   {
+//     let y = "hello webcamp"
+//   }
+//   console.log(x)
+//   console.log(y)
+// }
+
+// foo()
+
+// letのスコープ (例2)
+for (let i = 0; i < 10; i++) {     
+  console.log(i) 
+}
+
+console.log(i)
+
+// constのスコープ
+// constではブロックスコープ（ローカルスコープ）の変数を宣言
+// JavaScriptには変数の巻き上げ（ホイスティング） があります。
+var str = "webcamp"
+
+function foo() { 
+  console.log(str)
+  var str = "dmm webcamp"
+  console.log(str)
 }
 
 foo()
