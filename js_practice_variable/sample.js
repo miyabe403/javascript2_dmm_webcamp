@@ -5,7 +5,7 @@
 // var nickname = "ichiro"
 // console.log(nickname)
 
-// letによる再宣言
+// letによる再宣言 
 // let nickname = "taro"
 // console.log(nickname)
 // let nickname = "ichiro"
