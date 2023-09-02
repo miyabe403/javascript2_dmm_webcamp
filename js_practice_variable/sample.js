@@ -11,7 +11,7 @@
 // let nickname = "ichiro"
 // console.log(nickname)
 
-// constによる再宣言
+// constによる再宣言 
 // const nickname = "taro"
 // console.log(nickname)
 // const nickname = "ichiro"
