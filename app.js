@@ -35,3 +35,7 @@ alert(10 / 2);
 
 //【文字列を結合する】  
 alert('Hello' + 'World');
+
+let str2 = 'Hello';
+let str3 = 'World!!';
+alert(str2 + str3);
