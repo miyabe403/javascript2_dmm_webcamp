@@ -49,7 +49,7 @@
 // foo()
 // console.log(y)
 
-// letのスコープ
+// letのスコープ 
 // letではブロックスコープ（ローカルスコープ）の変数を宣言
 function foo() {
   let x = "webcamp"
