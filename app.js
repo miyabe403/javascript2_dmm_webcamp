@@ -1,7 +1,7 @@
  let hello = "Hello, World"; 
  alert(hello);
  
- // 整数を代入する
+ // 整数を代入する 
 let int1 = 1;
 alert(int1);
 
