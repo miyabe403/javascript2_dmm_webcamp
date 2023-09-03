@@ -69,7 +69,7 @@ for (let i = 0; i < 10; i++) {
 
 console.log(i)
 
-// constのスコープ
+// constのスコープ 
 // constではブロックスコープ（ローカルスコープ）の変数を宣言
 // JavaScriptには変数の巻き上げ（ホイスティング） があります。
 var str = "webcamp"
