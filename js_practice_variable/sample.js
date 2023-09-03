@@ -86,13 +86,21 @@
 // さきほどのコードは次のように記述したものと同じになります。
 // 初めのコードでは5行目にvar str = "dmm webcamp"とありましたが、
 // 内部的にはvar strの変数宣言の部分が巻き上げられます。 
-var str = "webcamp"
+// var str = "webcamp"
 
-function foo() { 
-  var str
-  console.log(str)
-  str = "dmm webcamp"
-  console.log(str)
+// function foo() { 
+//   var str
+//   console.log(str)
+//   str = "dmm webcamp"
+//   console.log(str)
+// }
+
+// foo()
+
+//【変数宣言の使い分け】
+// letは再代入をする場面において、使用すべきものとなります。
+// ０~9までをループによってコンソールに出力するコードです。
+// この場合、iをletで宣言する理由はループするたびにiに再代入を行うためです。
+for (let i = 0; i < 10; i++) {
+  console.log(i);
 }
-
-foo()
